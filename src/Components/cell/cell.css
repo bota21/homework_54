@@ -1,0 +1,16 @@
+.cell {
+    width: 40px;
+    height: 40px;
+    background: #ccc;
+    margin: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+    transition: .5s;
+}
+.active{
+    background: #fff;
+    color: #000;
+}
